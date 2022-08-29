@@ -1,6 +1,6 @@
 <?php
 //sql connection
-$link = mysqli_connect("localhost", "metaptno_statnett_adm", "cryptoservice", "metaptno_statnetttradesoptions");
+$link = mysqli_connect("localhost", "unititwe_statnett_adm", "cryptoservice", "unititwe_statnett");
 if(mysqli_connect_error()){
     die('ERROR: Unable to connect:' . mysqli_connect_error());
 }
