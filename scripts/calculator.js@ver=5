@@ -15,22 +15,22 @@ function DoCalculate() {
     } else {
         if($("#plan-1").is(":checked")) {
             planName="1.5%";
-            rate = (0.3/100) * 5;
+            rate = (1.5/100) * 5;
             pos = -116;
             ProfitPercentCalculate( pos)
         } if($("#plan-2").is(":checked")) {
             planName="1.9% ";
-            rate = (0.27/100) * 7;
+            rate = (1.9/100) * 7;
             pos = -250;
             ProfitPercentCalculate( pos)
         } if($("#plan-3").is(":checked")) {
             planName="2.7%";
-            rate = (0.27/100) * 10;
+            rate = (2.7/100) * 10;
             pos = -250;
             ProfitPercentCalculate( pos)
         }if($("#plan-4").is(":checked")) {
             planName="4.5%";
-            rate = (0.1/100) * 45;
+            rate = (4.5/100) * 45;
             pos = -250;
             ProfitPercentCalculate( pos)
         }
@@ -49,28 +49,28 @@ function DoCalculate() {
         $("#lblSelectedPlan").text(planName);
         
         if($("#plan-1").is(":checked")) {
-			$("#lblProfit").text("0.3");
+			$("#lblProfit").text("1.5");
             $("#lblDailyProfit").text(parseFloat((initial * rate)/3).toFixed(2));
             $("#lblTotalProfit").text(parseFloat(((initial * rate))).toFixed(2));
             $("#lblTotalReturn").text(parseFloat((initial * rate) + initial).toFixed(2));
             $("#lblProfitType").text("Profit");
             $("#lblProfitPeriod").text("daily for 5 Days");
         } if($("#plan-2").is(":checked")) {
-			$("#lblProfit").text("0.27");
+			$("#lblProfit").text("1.9");
             $("#lblDailyProfit").text(parseFloat((initial * rate)/5).toFixed(2));
             $("#lblTotalProfit").text(parseFloat(((initial * rate))).toFixed(2));
             $("#lblTotalReturn").text(parseFloat((initial * rate) + initial).toFixed(2));
             $("#lblProfitType").text("Profit");
             $("#lblProfitPeriod").text("daily for 7 Days");
         } if($("#plan-3").is(":checked")) {
-			$("#lblProfit").text("0.27");
+			$("#lblProfit").text("2.7");
             $("#lblDailyProfit").text(parseFloat((initial * rate)/7).toFixed(2));
             $("#lblTotalProfit").text(parseFloat(((initial * rate))).toFixed(2));
             $("#lblTotalReturn").text(parseFloat((initial * rate) + initial).toFixed(2));
             $("#lblProfitType").text("Profit");
             $("#lblProfitPeriod").text("daily for 10 Days");
         }if($("#plan-4").is(":checked")) {
-			$("#lblProfit").text("0.1");
+			$("#lblProfit").text("4.5");
             $("#lblDailyProfit").text(parseFloat((initial * rate)/10).toFixed(2));
             $("#lblTotalProfit").text(parseFloat(((initial * rate))).toFixed(2));
             $("#lblTotalReturn").text(parseFloat((initial * rate) + initial).toFixed(2));

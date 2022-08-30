@@ -776,7 +776,7 @@
             <div class="plan-item plan1">
               <div class="plan-body">
                   <h2 style="color:#000 !important">BASIC</h2>
-                <div class="plan-profit"> <strong>0.3<b>% daily</b></strong> <span> <br>for 5 days</span></div>
+                <div class="plan-profit"> <strong>1.5<b>% daily</b></strong> <span> <br>for 5 days</span></div>
                 <div class="plan-bg"></div>
                 <div class="plan-bottom"> <span>Minimum Deposit:</span> <strong>$200<b></b></strong> <span>Maximum Deposit:</span> <strong>$999</strong>
                 <div class=""> 
@@ -791,7 +791,7 @@
             <div class="plan-item plan2">
               <div class="plan-body">
                   <h2 style="color:#000 !important">STANDARD</h2>
-                <div class="plan-profit"> <strong>0.27<b>% daily</b></strong> <span><br>for 7 Days</span></div>
+                <div class="plan-profit"> <strong>1.9<b>% daily</b></strong> <span><br>for 7 Days</span></div>
                 <div class="plan-bg"></div>
                 <div class="plan-bottom"> <span>Minimum Deposit:</span> <strong>$1,000<b></b></strong> <span>Maximum Deposit:</span> <strong>$4,999</strong> 
                 <div class=""> 
@@ -814,7 +814,7 @@
             <div class="plan-item plan1">
               <div class="plan-body">
                   <h2 style="color:#000 !important">PROFESSIONAL</h2>
-                <div class="plan-profit"> <strong>0.27<b>% daily</b></strong> <span> <br>for 10 Days</span></div>
+                <div class="plan-profit"> <strong>2.7<b>% daily</b></strong> <span> <br>for 10 Days</span></div>
                 <div class="plan-bg"></div>
                 <div class="plan-bottom"> <span>Minimum Deposit:</span> <strong>$5,000<b></b></strong> <span>Maximum Deposit:</span> <strong>$20,000</strong>
                 <div class=""> 
@@ -829,7 +829,7 @@
             <div class="plan-item plan2">
               <div class="plan-body">
                   <h2 style="color:#000 !important">Oil & Gas Investment</h2>
-                <div class="plan-profit"> <strong>0.1<b>% daily </b></strong><span>for 45 days</span> </div>
+                <div class="plan-profit"> <strong>4.5<b>% daily </b></strong><span>for 45 days</span> </div>
 <!--                <div class="plan-bg"></div>-->
                   
                 <div class="plan-bottom"> <span>Minimum Deposit:</span> <strong>$10,000<b></b></strong> <span>Maximum Deposit:</span> <strong>$50,000</strong> 
@@ -876,12 +876,12 @@
       <div class="select-plan">
         <input type="radio" name="plan" class="planRadio" id="plan-1" checked>
         <label for="plan-1" class="select-plan-item">
-          <b>0.3% daily</b> Profit
+          <b>1.5% daily</b> Profit
           <span>for 5 Days</span>
         </label>
         <input type="radio" name="plan" class="planRadio" id="plan-2">
         <label for="plan-2" class="select-plan-item">
-          <b>0.27% daily</b>  Profit
+          <b>1.9% daily</b>  Profit
           <span>for 7 Days</span>
         </label>
       </div>

@@ -418,7 +418,7 @@
                   <use xlink:href="#plusIcon"></use>
                 </svg>
                 </span> <strong>What is the minimum amount for deposit?</strong> </div>
-              <div class="question-item__answer"> Minimum Deposit amount is $25 for the stellar plan and $1,000 for the business plan<br>
+              <div class="question-item__answer"> Minimum Deposit amount is $200 for the Badic plan and $10,000 for Oil and Gas Investment<br>
                  </div>
             </div>
             <div class="question-item">

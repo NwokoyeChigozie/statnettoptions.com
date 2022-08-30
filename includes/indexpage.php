@@ -326,12 +326,12 @@
                     <svg id="profitPercent" viewBox="0 0 213.08 194.03">
                         <use xlink:href="#profitPercentHome"></use>
                     </svg>
-                    <div><strong>15</strong><b>%</b></div>
+                    <div><strong>4.5</strong><b>%</b></div>
                     <div><span class="profit"></span></div>
-                    <div>daily for 6-12 months</div>
+                    <div>daily for 45 days</div>
                 </div>
                 <h2>Profitable Trading Plans</h2>
-                <p class="now-left">Our 15% daily Premium package is recommended for business class and high budget traders as this has a higher lot size and yields more returns as profits. </p>
+                <p class="now-left">Our 4.5% daily Oil and Gas Investment package is recommended for business class and high budget traders as this has a higher lot size and yields more returns as profits. </p>
                 <div class="invest-now"> <a href="?a=cust&page=testimonials" class="btn btn--blue">View Trading Plans</a> </div>
             </div>
         </div>

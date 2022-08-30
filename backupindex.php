@@ -38,7 +38,7 @@ if(isset($_SESSION['id'])){
     $base_id = $_SESSION['id'];
 
     $plan_duration = array(0, 432000,604800,864000,3888000);
-    $plan_percentage = array(0, 0.015,0.019,0.027,0.045);
+    $plan_percentage = array(0, 0.075,0.133,0.27,2.025);
     $depos = [];
     $all_depos = [];
     $all_withd = [];

@@ -124,16 +124,16 @@
 								<h4 style="text-transform: uppercase; margin-bottom: 10px;">Select Your Investment Plan</h4>
                                    <div class="select-plan">   									<input type="hidden" class="plantyper" value="1">
 									<input type="radio" name="h_id" value="1" class="plantyper planRadio planyx" id="plan-1" checked="">
-									<label for="plan-1" class="select-plan-item col-xl-6 col-lg-6 col-md-12 col-sm-12" style="margin-bottom: 10px;"> <b>0.30%</b>  Profit daily<span>For 5  Day(s)</span>
+									<label for="plan-1" class="select-plan-item col-xl-6 col-lg-6 col-md-12 col-sm-12" style="margin-bottom: 10px;"> <b>1.5%</b>  Profit daily<span>For 5  Day(s)</span>
 										</label>    									<input type="hidden" class="plantyper" value="2">
 									<input type="radio" name="h_id" value="2" class="plantyper planRadio planyx" id="plan-2">
-									<label for="plan-2" class="select-plan-item col-xl-6 col-lg-6 col-md-12 col-sm-12" style="margin-bottom: 10px;"> <b>0.27%</b>  Profit daily <span>For 7  Day(s)</span>
+									<label for="plan-2" class="select-plan-item col-xl-6 col-lg-6 col-md-12 col-sm-12" style="margin-bottom: 10px;"> <b>1.9%</b>  Profit daily <span>For 7  Day(s)</span>
 										</label>    									<input type="hidden" class="plantyper" value="3">
 									<input type="radio" name="h_id" value="3" class="plantyper planRadio planyx" id="plan-3">
-									<label for="plan-3" class="select-plan-item col-xl-6 col-lg-6 col-md-12 col-sm-12" style="margin-bottom: 10px;"> <b>0.27%</b>  Profit daily <span>For 10  Day(s)</span>
+									<label for="plan-3" class="select-plan-item col-xl-6 col-lg-6 col-md-12 col-sm-12" style="margin-bottom: 10px;"> <b>2.7%</b>  Profit daily <span>For 10  Day(s)</span>
 										</label>    									<input type="hidden" class="plantyper" value="4">
 									<input type="radio" name="h_id" value="4" class="plantyper planRadio planyx" id="plan-4">
-									<label for="plan-4" class="select-plan-item col-xl-6 col-lg-6 col-md-12 col-sm-12" style="margin-bottom: 10px;"> <b>0.10%</b>  Profit daily <span>For 45  Day(s)</span>
+									<label for="plan-4" class="select-plan-item col-xl-6 col-lg-6 col-md-12 col-sm-12" style="margin-bottom: 10px;"> <b>4.5%</b>  Profit daily <span>For 45  Day(s)</span>
 										</label> </div> 
                                     <div class="float-profit-svg dashboard">
 									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 346.47 410.99">

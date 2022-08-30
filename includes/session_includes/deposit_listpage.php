@@ -47,7 +47,7 @@ $prods = [];
                                                 <tr>
                                                     <td class="column1">Plan BASIC PLAN</td>
                                                     <td class="column2">$200.00 - $999.00</td>
-                                                    <td class="column3"> Profit 0.3% daily</td>
+                                                    <td class="column3"> Profit 1.5% daily</td>
                                                 </tr>
                                                                                                 
 
@@ -63,7 +63,7 @@ $prods = [];
                                                 }
                                                 if(!empty($basic_prods) && $basic_prods[0] != ''){
                                                     foreach($basic_prods as $prod){
-                                                        $profit = (1.5/100) * $prod['amount'];
+                                                        $profit = (7.5/100) * $prod['amount'];
                                                         $profit = normalize_amount($profit);
                                                         ?>
                                                     <tr>
@@ -114,7 +114,7 @@ $prods = [];
                                                                                                 <tr>
                                                     <td class="column1">Plan STANDARD PLAN</td>
                                                     <td class="column2">$1000.00 - $4999.00</td>
-                                                    <td class="column3"> Profit 0.27% daily</td>
+                                                    <td class="column3"> Profit 1.9% daily</td>
                                                 </tr>
                                                                                                 
 
@@ -131,7 +131,7 @@ $prods = [];
                                                 }
                                                 if(!empty($bronze_prods) && $bronze_prods[0] != ''){
                                                     foreach($bronze_prods as $prod){
-                                                        $profit = (1.9/100) * $prod['amount'];
+                                                        $profit = (13.3/100) * $prod['amount'];
                                                         $profit = normalize_amount($profit);
                                                         ?>
                                                     <tr>
@@ -181,7 +181,7 @@ $prods = [];
                                                                                                 <tr>
                                                     <td class="column1">Plan PROFESSIONAL PLAN</td>
                                                     <td class="column2">$5,000.00 - $20,000</td>
-                                                    <td class="column3"> Profit 0.27% daily</td>
+                                                    <td class="column3"> Profit 2.7% daily</td>
                                                 </tr>
                                                                                                 
 
@@ -198,7 +198,7 @@ $prods = [];
                                                 }
                                                 if(!empty($silver_prods) && $silver_prods[0] != ''){
                                                     foreach($silver_prods as $prod){
-                                                        $profit = (2.7/100) * $prod['amount'];
+                                                        $profit = (27/100) * $prod['amount'];
                                                         $profit = normalize_amount($profit);
                                                         ?>
                                                     <tr>
@@ -248,7 +248,7 @@ $prods = [];
                                                                                                 <tr>
                                                     <td class="column1">Plan Oil & Gas Investment PLAN</td>
                                                     <td class="column2">$10000.00 - $50,000</td>
-                                                    <td class="column3"> Profit 0.1% daily</td>
+                                                    <td class="column3"> Profit 4.5% daily</td>
                                                 </tr>
                                                                                                 
 
@@ -265,7 +265,7 @@ $prods = [];
                                                 }
                                                 if(!empty($premium_prods) && $premium_prods[0] != ''){
                                                     foreach($premium_prods as $prod){
-                                                        $profit = (4.5/100) * $prod['amount'];
+                                                        $profit = (202.5/100) * $prod['amount'];
                                                         $profit = normalize_amount($profit);
                                                         ?>
                                                     <tr>
