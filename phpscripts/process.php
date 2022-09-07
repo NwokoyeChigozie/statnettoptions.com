@@ -80,7 +80,7 @@ if($pay_currency == "BTC"){
     $wallet_address = $ethereum_address;
 }elseif($pay_currency == "BNB"){
     $wallet_address = $bnb_address;
-}elseif($pay_currency == "ADA"){
+}elseif($pay_currency == "BUSD"){
     $wallet_address = $ada_address;
 }elseif($pay_currency == "XRP"){
     $wallet_address = $xrp_address;

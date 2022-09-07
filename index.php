@@ -2079,85 +2079,7 @@ s0.parentNode.insertBefore(s1,s0);
     </script>
         </div>
 <!--    </div>-->
-<div class="modal-general count_down-modal" bis_skin_checked="1" style="display: none;">
-            <button class="modal-close">
-                <svg viewBox="0 0 11.58 11.58">
-                    <use xlink:href="#closeIcon"></use>
-                </svg>
-            </button>
-            <form method="post" id="withdrawal_form">
-                
-              <h1 style="text-align:center;color:#A38A00">+$200 </h1>  
-              <h2 style="text-align:center;">Welcome Bonus</h2>
-                
-              <h5 style="text-align:center;">Deposit funds(0.045+ BTC) to your account now, and enjoy extra benefit: <span style="color:#A38A00">$200 Bonus</span></h5>
-                <br>
-                <h6 style="text-align:center;">Time Left:</h6>
-<!--                <h3 id="tester"><?php if(isset($_SESSION['id'])){
-                                                          echo $c_time - $reg_stamp;
-                                                        }
- ?></h3>-->
-                <h2 style="text-align:center;"><span style="background-color:#808080;padding:6px;border-radius:3.5px;" id="count_hour">24</span> : <span style="background-color:#808080;padding:6px;border-radius:3.5px;" id="count_min">00</span> : <span style="background-color:#808080;padding:6px;border-radius:3.5px;" id="count_sec">00</span></h2>
-                <h6 style="text-align:center;"><span style="margin-right:6.5%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hours</span> <span style="margin-right:6.5%">&nbsp;&nbsp;&nbsp;&nbsp;Minutes</span> <span style="margin-right:3%">seconds</span></h6>
-                
-                <br><br>
-                <h5 style="text-align:center;">Simply click the "Deposit" or "Make A Deposit", follow the instructions and get your account funded. The minimum amount to deposit is equal to 0.001BTC and there is no fees on deposits</h5>
-            </form>
 
-        </div>
-        <input type="hidden" id="diff_value" value="<?php 
-                                                    if(isset($_SESSION['id'])){
-                                                          echo $c_time - $reg_stamp;  
-                                                        }
-                                                     ?>">
-        <input type="hidden" id="login_count_v" value="<?php 
-                                                       if(isset($_SESSION['id'])){
-                                                          echo $login_count; 
-                                                        }
-                                                        ?>">
-            <script>
-                
-        $(document).ready(function() {
-            var current_diff1 = $("#diff_value").val();
-            var login_count_v = $("#login_count_v").val();
-            var current_diff = current_diff1;
-//            var variable = [1, 2, 3];
-//            console.log(current_diff1);
-            function format_d(xt){
-                var lnt = xt.toString().length;
-                var nvb = xt;
-                    if(lnt < 2){
-                        nvb = "0" + xt;
-                    }else{
-                        nvb = xt;
-                    }
-                return nvb;
-            }
-            if(current_diff1 < 86400 && login_count_v == 0){
-                
-                current_diff = 86397;
-                $("#open_counter").trigger("click");
-                window.setInterval(function(){
-                    
-                   current_diff = current_diff - 1
-                    var hr;
-                    var mn;
-                    var sc;
-                    hr = Math.floor(current_diff/3600);
-                    
-                    var n = current_diff % 3600;
-                    mn = Math.floor(n/60);
-                    sc = n % 60;
-                    $('#count_hour').html(format_d(hr));
-                    $('#count_min').html(format_d(mn));
-                    $('#count_sec').html(format_d(sc));
-                    
-                }, 1000);
-               }
-
-        });
-
-    </script>
         <div class="modal-general deposit_modal1" bis_skin_checked="1" style="display: none;">
             <button class="modal-close" id="first_close">
                 <svg viewBox="0 0 11.58 11.58">
@@ -2181,7 +2103,7 @@ s0.parentNode.insertBefore(s1,s0);
                        <option value="ETH">ETH</option>
                        <option value="BNB">BNB</option>
                        <option value="XRP">XRP</option>
-                       <option value="ADA">ADA</option>
+                       <option value="BUSD">USDT</option>
                        <option value="DOGE">DOGE</option>
                     </select>
                 </div><br>
@@ -2390,7 +2312,7 @@ s0.parentNode.insertBefore(s1,s0);
 
         </div>
     </div>
-    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="d237c5ca-885d-48f7-8e24-1b23e23b76d1";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+    <script src="//code.jivosite.com/widget/wLOgxOt47g" async></script>
     <script src="scripts/jquery-3.2.1.min.js"></script>
     <script src="scripts/TweenMax.min.js"></script>
     <script src="scripts/layout.js@ver=50"></script>

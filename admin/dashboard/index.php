@@ -321,7 +321,7 @@ $count = mysqli_num_rows($result);
                 <input type="text" name="bnb_address" class="form-control" value="<?php echo $bnb_address; ?>">
               </div>
               <div class="form-group">
-                <label for="inputEstimatedBudget">ADA Wallet Address</label>
+                <label for="inputEstimatedBudget">USDT Wallet Address</label>
                 <input type="text" name="ada_address" class="form-control" value="<?php echo $ada_address; ?>">
               </div>
               <div class="form-group">

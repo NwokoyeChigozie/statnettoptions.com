@@ -58,18 +58,6 @@ $user_data = mysqli_fetch_array($user_result, MYSQLI_ASSOC);
 $u_registered_at = $user_data['registered_at']; 
      
  $history_amount = $entered_amount;
-$reg_d = explode(' ', $u_registered_at);   
-$reg_d =  $reg_d[0];
-$rd_split = explode('-', $reg_d);
-$reg_stamp = strtotime($rd_split[1] . '-' . $rd_split[0] . '-' . $rd_split[2] . ' ' . $reg_d[1]);
-if(time() - $reg_stamp < 86400){
-    
-    if($entered_amount < 200){
-        $entered_amount = $entered_amount + 20;
-    }else{
-       $entered_amount = $entered_amount + 200; 
-    }
-} 
      
      
     $sql_t = "UPDATE `payments` SET `status`='completed' WHERE `id`= '$p_id'";    

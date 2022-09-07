@@ -820,17 +820,32 @@
                 <div class=""> 
 								<a onclick="openModal('register-modal')" class="btn">Sign Up</a> 
 								</div>
+                </div>
               </div>
             </div>
-          </div>
           </div>
 
           <div class="col-md-4 col-sm-4 col-xs-4">
             <div class="plan-item plan2">
               <div class="plan-body">
                   <h2 style="color:#000 !important">Oil & Gas Investment</h2>
+                <div class="plan-profit"> <strong>4.5<b>% daily</b></strong> <span> <br>for 45 Days</span></div>
+                <div class="plan-bg"></div>
+                <div class="plan-bottom"> <span>Minimum Deposit:</span> <strong>$10,000<b></b></strong> <span>Maximum Deposit:</span> <strong>$50,000</strong>
+                <div class=""> 
+								<a onclick="openModal('register-modal')" class="btn">Sign Up</a> 
+								</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-md-4 col-sm-4 col-xs-4">
+            <div class="plan-item plan2">
+              <div class="plan-body">
+                  <h2 style="color:#000 !important">Oil & Gas Investment</h2>
                 <div class="plan-profit"> <strong>4.5<b>% daily </b></strong><span>for 45 days</span> </div>
-<!--                <div class="plan-bg"></div>-->
+               <div class="plan-bg"></div>
                   
                 <div class="plan-bottom"> <span>Minimum Deposit:</span> <strong>$10,000<b></b></strong> <span>Maximum Deposit:</span> <strong>$50,000</strong> 
                 <div class=""> 
@@ -838,7 +853,7 @@
 								</div>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="col-md-2 col-sm-2 col-xs-2"></div>
       </div>
     </div>
