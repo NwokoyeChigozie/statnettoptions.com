@@ -966,10 +966,10 @@ s0.parentNode.insertBefore(s1,s0);
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-sm-7 col-xs-6">
-                        <!--
-          <div class="footer-logo"> <img src="styles/img/logo.svg"> <strong></strong> <span></span> </div>
-          
-          -->
+          <div class="footer-logo"> 
+              <!-- <img src="styles/img/logo.svg">  -->
+              click here to see our <span><a href="./images/cert.jpg">certificate of good standing<a></span> </div>
+  
                     </div>
                     <div class="col-md-4 col-sm-5 col-xs-6 ">
                         <div class="social-icon">
